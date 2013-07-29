@@ -16,7 +16,7 @@ int main(int argc,char *argv[]){
 	}
 	len=strlen(c);
 
-	printf("参数:%s\n长度:%d\n\n",c,len);
+	printf("鍙傛暟:%s\n闀垮害:%d\n\n",c,len);
 
 
 	for(i=len-1;i>=0;i--){

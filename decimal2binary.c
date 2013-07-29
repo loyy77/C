@@ -30,14 +30,14 @@ int main(int argc,char* argv[]){
 	int x;
 
 	if(argv[1]!=0){
-		/*sscanf()µÄÊäÈëÔ´À´ÖÁ×Ö·û´®£¬
-		µÚ¶þ¸ö²ÎÊýÖ¸¶¨°ÑÕâ×Ö·û´®¸ñÊ½»¯ÎªÊ²Ã´Ñù×Ó£¬
-		µÚÈý¸ö²ÎÊý¾ÍÊÇ´¦ÀíºóµÄ½á¹û*/
+		/*sscanf()çš„è¾“å…¥æºæ¥è‡³å­—ç¬¦ä¸²ï¼Œ
+		ç¬¬äºŒä¸ªå‚æ•°æŒ‡å®šæŠŠè¿™å­—ç¬¦ä¸²æ ¼å¼åŒ–ä¸ºä»€ä¹ˆæ ·å­ï¼Œ
+		ç¬¬ä¸‰ä¸ªå‚æ•°å°±æ˜¯å¤„ç†åŽçš„ç»“æžœ*/
 		sscanf(argv[1],"%f",&i);
 		
 	}
 	
-	printf("²ÎÊý:%.2f\n",i);
+	printf("å‚æ•°:%.2f\n",i);
 	fun(i);
 
 	printf("\n");	
